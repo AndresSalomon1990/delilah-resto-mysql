@@ -22,15 +22,17 @@ To start using it:
 
 1. Navigate to './api/db/' and create the database structure with the file 'delilah_resto_db_structure.sql'.
 
-2. Start the server with the command:
+2. Install the dependencies listed in `package.json` with `npm install`.
+
+3. Start the server with the command:
 
 `node server.js` or `nodemon server.js`
 
 It runs in port 3000.
 
-3. Then you can start making request to the different paths. 
+4. Then you can start making request to the different paths. 
 
-4. **Check the docs in**:
+5. **Check the docs in**:
 
 	[http://localhost.com:3000/api/docs] or in the file 'spec.yml'
 
@@ -44,4 +46,3 @@ Recommended steps to test it:
 - Check allowed users paths
 - Login as admin
 - Check allowed admin paths
-
